@@ -8,3 +8,4 @@ RUN ls -lah /items.dat
 RUN make -j$(nproc)
 
 CMD ["/main.out"]
+RUN ls -lah /items.dat
